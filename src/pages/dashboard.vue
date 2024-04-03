@@ -15,7 +15,7 @@ import wallet from '@images/cards/wallet-info.png'
 
 <template>
   <VRow>
-    <!-- 👉 Congratulations -->
+    <!-- WELCOME -->
     <VCol
       cols="12"
       md="8"
@@ -28,39 +28,39 @@ import wallet from '@images/cards/wallet-info.png'
       sm="4"
     >
       <VRow>
-        <!-- 👉 Profit -->
+        <!-- AIR QUALITY MONITORING -->
         <VCol
           cols="12"
           md="6"
         >
           <CardStatisticsVertical
             v-bind="{
-              title: 'Profit',
+              title: 'Air Quality Monitoring',
               image: chart,
-              stats: '$12,628',
-              change: 72.80,
+              stats: '78%',
+              change: 7,
             }"
           />
         </VCol>
 
-        <!-- 👉 Sales -->
+        <!-- NOISE LEVEL MONITORING -->
         <VCol
           cols="12"
           md="6"
         >
           <CardStatisticsVertical
             v-bind="{
-              title: 'Sales',
-              image: wallet,
-              stats: '$4,679',
-              change: 28.42,
+              title: 'Noise Level Monitoring',
+              image: chart,
+              stats: '85%',
+              change: 3,
             }"
           />
         </VCol>
       </VRow>
     </VCol>
 
-    <!-- 👉 Total Revenue -->
+    <!-- ROOM OCCUPANCY SENSORS -->
     <VCol
       cols="12"
       md="8"
@@ -78,39 +78,39 @@ import wallet from '@images/cards/wallet-info.png'
       order-md="2"
     >
       <VRow>
-        <!-- 👉 Payments -->
+        <!-- CAMPUS OCCUPANCY MONITORING -->
         <VCol
           cols="12"
           sm="6"
         >
           <CardStatisticsVertical
             v-bind=" {
-              title: 'Payments',
+              title: 'Campus Occupancy',
               image: paypal,
-              stats: '$2,468',
-              change: -14.82,
+              stats: '10,854',
+              change: -9,
             }"
           />
         </VCol>
 
-        <!-- 👉 Revenue -->
+        <!-- PARKING SPOTS -->
         <VCol
           cols="12"
           sm="6"
         >
           <CardStatisticsVertical
             v-bind="{
-              title: 'Transactions',
+              title: 'Parking Spots',
               image: card,
-              stats: '$14,857',
-              change: 28.14,
+              stats: '212',
+              change: 32,
             }"
           />
         </VCol>
       </VRow>
 
       <VRow>
-        <!-- 👉 Profit Report -->
+        <!-- POLLUTANT REPORT -->
         <VCol
           cols="12"
           sm="12"
@@ -120,27 +120,7 @@ import wallet from '@images/cards/wallet-info.png'
       </VRow>
     </VCol>
 
-    <!-- 👉 Order Statistics -->
-    <VCol
-      cols="12"
-      md="4"
-      sm="6"
-      order="3"
-    >
-      <AnalyticsOrderStatistics />
-    </VCol>
-
-    <!-- 👉 Tabs chart -->
-    <VCol
-      cols="12"
-      md="4"
-      sm="6"
-      order="3"
-    >
-      <AnalyticsFinanceTabs />
-    </VCol>
-
-    <!-- 👉 Transactions -->
+    <!-- PARKING SENSORS -->
     <VCol
       cols="12"
       md="4"

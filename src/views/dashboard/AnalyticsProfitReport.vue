@@ -87,10 +87,10 @@ const chartOptions = computed(() => {
       <div class="d-flex flex-column justify-space-between gap-y-4">
         <div>
           <h6 class="text-h6 text-no-wrap mb-1">
-            Profile Report
+            Pollutant Report
           </h6>
           <VChip color="warning">
-            Year 2022
+            Year 2024
           </VChip>
         </div>
 
@@ -101,11 +101,11 @@ const chartOptions = computed(() => {
               size="18"
               class="me-1"
             />
-            <span>68.2%</span>
+            <span>24.2%</span>
           </div>
 
           <h5 class="text-h5">
-            $84,686k
+            96%
           </h5>
         </div>
       </div>

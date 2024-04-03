@@ -1,52 +1,36 @@
 <script setup>
 import chartInfo from '@images/cards/chart-info.png'
-import creditCardSuccess from '@images/cards/credit-card-success.png'
-import creditCardWarning from '@images/cards/credit-card-warning.png'
-import paypalError from '@images/cards/paypal-error.png'
-import walletPrimary from '@images/cards/wallet-primary.png'
 
 const transactions = [
   {
-    amount: +82.6,
-    paymentMethod: 'Paypal',
-    description: 'Send money',
-    icon: paypalError,
+    amount: +1,
+    paymentMethod: 'Lot 1',
+    description: 'Space 2D',
     color: 'error',
   },
   {
-    paymentMethod: 'Wallet',
-    amount: +270.69,
-    description: 'Mac\'D',
-    icon: walletPrimary,
+    paymentMethod: 'Lot 5',
+    amount: +1,
+    description: 'Space 4A',
     color: 'primary',
   },
   {
-    amount: +637.91,
-    paymentMethod: 'Transfer',
-    description: 'Refund',
-    icon: chartInfo,
+    amount: +1,
+    paymentMethod: 'Lot 2',
+    description: 'Space 7F',
     color: 'info',
   },
   {
-    paymentMethod: 'Credit Card',
-    amount: -838.71,
-    description: 'Ordered Food',
-    icon: creditCardSuccess,
+    paymentMethod: 'Lot 3',
+    amount: -1,
+    description: 'Space 6B',
     color: 'success',
   },
   {
-    paymentMethod: 'Wallet',
-    amount: +203.33,
-    description: 'Starbucks',
-    icon: walletPrimary,
+    paymentMethod: 'Lot 5',
+    amount: -1,
+    description: 'Space 3C',
     color: 'primary',
-  },
-  {
-    paymentMethod: 'Mastercard',
-    amount: -92.45,
-    description: 'Ordered Food',
-    icon: creditCardWarning,
-    color: 'warning',
   },
 ]
 
@@ -67,7 +51,7 @@ const moreList = [
 </script>
 
 <template>
-  <VCard title="Transactions">
+  <VCard title="Parking Lot Availability">
     <template #append>
       <div class="me-n3 mt-n2">
         <MoreBtn :menu-list="moreList" />
@@ -99,10 +83,10 @@ const moreList = [
 
           <template #append>
             <VListItemAction>
-              <span class="me-1">{{ item.amount > 0 ? `+$${Math.abs(item.amount)}` : `-$${Math.abs(item.amount)}` }}</span>
-              <span class="text-disabled">USD</span>
+              <span class="me-1">{{ item.amount > 0 ? `+${Math.abs(item.amount)}` : `-${Math.abs(item.amount)}` }}</span>
             </VListItemAction>
           </template>
+
         </VListItem>
       </VList>
     </VCardText>

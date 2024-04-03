@@ -29,16 +29,16 @@ const isPasswordVisible = ref(false)
         </template>
 
         <VCardTitle class="text-2xl font-weight-bold">
-          sneat
+          Smart DCU Dashboard
         </VCardTitle>
       </VCardItem>
 
       <VCardText class="pt-2">
         <h5 class="text-h5 mb-1">
-          Adventure starts here 🚀
+          Sign Up
         </h5>
         <p class="mb-0">
-          Make your app management easy and fun!
+          See all of the DCU stats, up to date!
         </p>
       </VCardText>
 

@@ -6,8 +6,8 @@ const vuetifyTheme = useTheme()
 
 const series = [{
   data: [
-    30,
-    70,
+    50,
+    50,
     35,
     55,
     45,

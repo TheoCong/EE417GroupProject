@@ -18,15 +18,15 @@ const illustrationJohn = computed(() => global.name.value === 'dark' ? illustrat
       >
         <VCardItem>
           <VCardTitle class="text-md-h5 text-primary">
-            Congratulations John! 🎉
+            Welcome to Smart DCU Data!
           </VCardTitle>
         </VCardItem>
 
         <VCardText>
           <span>
-            You have done 72% 🤩 more sales today.
+            Indoor air quality has increased by 5% today.
             <br>
-            Check your new raising badge in your profile.
+            Outdoor air quality has increased by 7% today.
           </span>
           <br>
           <VBtn
